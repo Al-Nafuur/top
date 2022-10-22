@@ -48,3 +48,13 @@ TT_USE_FUNKTEMPO        = 0
 ; this flag to 0 to save 2 bytes.
 ; 0: +2 bytes
 TT_STARTS_WITH_NOTES    = 0
+
+; PlusROM constants
+PLUSROM                 = 1
+
+WriteToBuffer           = $1FF0
+WriteSendBuffer         = $1FF1
+ReceiveBuffer           = $1FF2
+ReceiveBufferSize       = $1FF3
+
+HIGHSCORE_ID            = 56         ; Top game ID in Highscore DB

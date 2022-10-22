@@ -44,7 +44,13 @@ Reset:
 
 		include "musicData.asm"
 		include "graphics.asm"    
-                		
+
+   IF PLUSROM
+
+		include "plusrom.asm"
+
+   ENDIF
+
 		include "vectors.asm"
 		
 

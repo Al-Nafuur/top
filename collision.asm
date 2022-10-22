@@ -55,7 +55,14 @@ CheckBottom:
                
                 
 IsCollision:
-                
+
+   IF PLUSROM
+
+               jmp SendPlusROMScore
+
+ReturnFromSendPlusROMScore:
+
+   ENDIF
                lda #0
                sta isMoving
                
